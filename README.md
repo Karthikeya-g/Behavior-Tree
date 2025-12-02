@@ -99,6 +99,3 @@ The decision-making logic for the doors ("Is the door closed?") is handled using
 ### 3\. Modular Actions (Ports)
 
 Instead of hardcoding separate classes for every location (e.g., `MoveToFridge`, `MoveToDoor`), I implemented a generic `MoveTo` class that accepts an **Input Port** (`target`). This makes the code cleaner and reusable for any future locations.
-
-```
-```
